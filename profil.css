@@ -2,44 +2,197 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
+    background: #eeeeec;
   }
 
-
+  
   .profil{
     position: absolute;
-    top: 20px; 
+    top: 5%; 
     left: 50%;
-    border: 1px solid black;
-    width: 350px; 
+    /**border: 1px solid black;**/
+    width: 380px; 
     height: 600px; 
-     border-radius:20px ; 
+    border-radius:10px ; 
+    background: white;
     
   }
+  .menu-haut{
+  position:relative;
+  display:flex;
+  justify-content: space-between;  
+  background: white;
+  width: 80%;
+  left:40px;
+  top:20px; 
+  }
+
+  /**.fa {
+    position:relative;
+    left:160px;
+    z-index: 1;
+    background: transparent;
+    color: rgb(143, 50, 205);
+    transform: scale(1.5);
+
+  }**/
+
+   div{
+      
+      background: white;
+      text-align:center;
+    }
+
+    .fa{
+      background:white;
+    }
+
+    span{
+      font-weight: 900;
+      font-size: x-large;
+      background:white;
+    }
+
+    p{
+      background: white;
+    }
+
+    h1{
+      color: #2D354A;
+    }
+    h2{
+      position:relative ; 
+      color: white;
+      top:15%;
+      width:50%;
+      border-radius: 50px;
+      left:90px;
+      background: rgb(34,193,195);
+      background: linear-gradient(278deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); ;
+    }
+    .job{
+      color: #7C8097;
+    }
+    .description{
+      position:relative ;
+      color: #080911;
+      top:12%;
+      background: transparent;
+    }
+    .description {
+      -webkit-animation-name: slideInLeft;
+      animation-name: slideInLeft;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      }
+      @-webkit-keyframes slideInLeft {
+      0% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+      visibility: visible;
+      }
+      100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      }
+      }
+      @keyframes slideInLeft {
+      0% {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+      visibility: visible;
+      }
+      100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      }
+      } 
+    
+    h1,.job{
+      position:relative ;
+      top:10% ;
+      background: transparent;
+      text-align:center;
+    }
+    .job {
+      -webkit-animation-name: slideInRight;
+      animation-name: slideInRight;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      }
+      @-webkit-keyframes slideInRight {
+      0% {
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+      visibility: visible;
+      }
+      100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      }
+      }
+      @keyframes slideInRight {
+      0% {
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+      visibility: visible;
+      }
+      100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      }
+      }
+
+  .far{
+    background: white;
+  }
+  .fas fa-long-arrow-alt-left{
+    background: white;
+  }
+  .monprofil{
+    border-radius: 50%;
+    width: 150px;
+    }
+
+    img{
+      position: relative;
+      top:10% ;
+    }
 
   .activity{
       position: relative;
       display: flex;
       text-align: center;
       justify-content: space-around;
-      border: 1px solid black;
-      top: 60%;
-      
+      top: 22%;
+      background: white;
+      /**border: 1px solid black; **/   
   }
+  /**i{
+    border-radius: 50%;
+    background: blueviolet;
+  }**/
+  .fab {padding: 20px; 
+    font-size: 30px;
+    width: 90px;
+    transform: scale(0.9);
+    text-align: center;
+    text-decoration: none;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,223,188,1) 51%, rgba(0,212,255,1) 100%); 
+    border-radius: 90%; }
 
+     .fas {padding: 20px; 
+      font-size: 30px;
+      width: 90px;
+      transform: scale(0.9);
+      text-align: center;
+      text-decoration: none;
+      background: rgb(2,0,36);
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,223,188,1) 51%, rgba(0,212,255,1) 100%); 
+      border-radius: 90%; }
 
-
-
-
-
-
-
-
-.roundedImage{
-    overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:100px;
-    width:50px;
-    height:50px;
-}
