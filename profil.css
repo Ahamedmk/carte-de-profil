@@ -15,7 +15,7 @@
     height: 600px; 
     border-radius:10px ; 
     background: white;
-    
+    box-shadow: 10px 5px 5px rgb(61, 58, 58);
   }
   .menu-haut{
   position:relative;
@@ -27,15 +27,15 @@
   top:20px; 
   }
 
-  /**.fa {
+  .circle {
     position:relative;
     left:160px;
+    /**background: transparent;**/
     z-index: 1;
-    background: transparent;
     color: rgb(143, 50, 205);
     transform: scale(1.5);
 
-  }**/
+  }
 
    div{
       
@@ -43,7 +43,7 @@
       text-align:center;
     }
 
-    .fa{
+    .fa,p{
       background:white;
     }
 
@@ -53,9 +53,9 @@
       background:white;
     }
 
-    p{
+    /**p{
       background: white;
-    }
+    }*//
 
     h1{
       color: #2D354A;
@@ -156,6 +156,7 @@
   .monprofil{
     border-radius: 50%;
     width: 150px;
+    /**box-shadow: 10px 5px 5px rgb(61, 58, 58);**/
     }
 
     img{
